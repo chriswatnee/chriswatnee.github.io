@@ -150,3 +150,19 @@ section {
   margin: 1em 0;
   padding-left: 40px;
 }
+
+.projects-section > p {
+  text-align: center;
+}
+
+.projects-section .container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
