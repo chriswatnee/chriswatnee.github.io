@@ -166,3 +166,34 @@ section {
   margin: 0 auto;
   border-radius: 5px;
 }
+
+.social-section {
+  color: #000;
+  background-color: #b2bec3;
+  text-align: center;
+}
+
+.social-section .container {
+  grid-template-columns: auto auto auto;
+  max-width: 600px;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  color: #fff;
+  background-color: #2d3436;
+  border-radius: 50%;
+  transition: background-color 0.5s ease;
+}
+
+.icon:hover {
+  background-color: #636e72;
+}
