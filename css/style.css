@@ -197,3 +197,24 @@ section {
 .icon:hover {
   background-color: #636e72;
 }
+
+@media screen and (max-width: 750px) {
+  .skills-section .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  .about-section .container,
+  .projects-section .container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section .about-img {
+    margin: 0 auto;
+  }
+}
