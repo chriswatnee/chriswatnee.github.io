@@ -52,3 +52,30 @@ p {
 li {
   font-size: 1.1rem;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0984e3;
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0;
+  font-weight: 700;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
