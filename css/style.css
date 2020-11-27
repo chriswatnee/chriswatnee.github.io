@@ -103,3 +103,25 @@ section {
 .btn:hover {
   background-color: #2d3436;
 }
+
+.jumbotron-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  color: #000;
+  background-color: #74b9ff;
+}
+
+.jumbotron-section .name {
+  white-space: nowrap;
+}
+
+.jumbotron-section p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.jumbotron-section .btn {
+  padding: 10px 20px;
+}
