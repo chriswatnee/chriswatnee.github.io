@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,800|Crimson");
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  font-family: "Crimson", serif;
+  color: #2d3436;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0.67em 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 0.83em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 0.83em 0;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+li {
+  font-size: 1.1rem;
+}
