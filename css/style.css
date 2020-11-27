@@ -125,3 +125,15 @@ section {
 .jumbotron-section .btn {
   padding: 10px 20px;
 }
+
+.about-section .container {
+  grid-template-columns: auto auto;
+}
+
+.about-section .about-img {
+  border-radius: 50%;
+}
+
+.about-section a {
+  color: #0984e3;
+}
