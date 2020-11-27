@@ -137,3 +137,16 @@ section {
 .about-section a {
   color: #0984e3;
 }
+
+.skills-section {
+  background-color: #dfe6e9;
+}
+
+.skills-section .container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills-section ul {
+  margin: 1em 0;
+  padding-left: 40px;
+}
