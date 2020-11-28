@@ -228,6 +228,7 @@ section {
 
 @media screen and (max-width: 450px) {
   .navbar li a {
+    padding: 9px;
     font-size: 0.9rem;
   }
 
