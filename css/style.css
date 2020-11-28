@@ -229,11 +229,11 @@ section {
 @media screen and (max-width: 450px) {
   .navbar li a {
     padding: 5px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .anchor {
-    top: -94px;
+    top: -84px;
   }  
 
   .jumbotron-section .name {
