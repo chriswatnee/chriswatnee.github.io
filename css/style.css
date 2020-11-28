@@ -225,3 +225,17 @@ section {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .navbar li a {
+    font-size: 0.9rem;
+  }
+
+  .anchor {
+    top: -94px;
+  }  
+
+  .jumbotron-section .name {
+    white-space: normal;
+  }
+}
