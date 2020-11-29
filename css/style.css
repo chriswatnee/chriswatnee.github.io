@@ -49,7 +49,8 @@ p {
   margin: 1em 0;
 }
 
-li {
+li,
+label {
   font-size: 1.1rem;
 }
 
@@ -98,9 +99,14 @@ section {
   max-width: 1200px;
 }
 
+.name {
+  white-space: nowrap;
+}
+
 .btn {
   color: #fff;
   background-color: #0984e3;
+  border: none;
   border-radius: 5px;
   padding: 10px;
   text-decoration: none;
@@ -119,10 +125,6 @@ section {
   min-height: 560px;
   color: #000;
   background-color: #74b9ff;
-}
-
-.jumbotron-section .name {
-  white-space: nowrap;
 }
 
 .jumbotron-section p {
@@ -206,6 +208,45 @@ section {
   background-color: #636e72;
 }
 
+.contact-container {
+  margin: 0 auto;
+  padding: 60px 20px;
+  max-width: 800px;
+  text-align: right;
+}
+
+.contact-container p {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.row::after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.left-column {
+  float: left;
+  width: 15%;
+  padding-right: 20px;
+}
+
+.right-column {
+  float: right;
+  width: 85%;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+}
+
 @media screen and (max-width: 750px) {
   .skills-section .container {
     grid-template-columns: 1fr;
@@ -225,6 +266,21 @@ section {
   .about-section .about-img {
     margin: 0 auto;
   }
+
+  .left-column,
+  .right-column {
+    float: none;
+    width: 100%;
+  }
+
+  .left-column {
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .form-input {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -233,11 +289,11 @@ section {
     font-size: 0.8rem;
   }
 
+  .name {
+    white-space: normal;
+  }
+
   .anchor {
     top: -84px;
-  }  
-
-  .jumbotron-section .name {
-    white-space: normal;
   }
 }
