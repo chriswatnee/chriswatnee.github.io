@@ -109,12 +109,14 @@ section {
   border: none;
   border-radius: 5px;
   padding: 10px;
+  font-family: "Crimson", serif;
   text-decoration: none;
   transition: background-color 0.5s ease;
 }
 
 .btn:hover {
   background-color: #2d3436;
+  cursor: pointer;
 }
 
 .jumbotron-section {
