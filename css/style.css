@@ -83,6 +83,11 @@ header {
   text-decoration: none;
 }
 
+.navbar li.active a {
+  color: #74b9ff;
+  cursor: default;
+}
+
 section {
   padding: 60px 20px;
 }
