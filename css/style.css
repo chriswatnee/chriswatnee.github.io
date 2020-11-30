@@ -50,7 +50,9 @@ p {
 }
 
 li,
-label {
+label,
+input,
+button {
   font-size: 1.1rem;
 }
 
