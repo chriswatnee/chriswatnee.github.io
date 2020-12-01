@@ -9,10 +9,9 @@ function updateNavbar(scrollPosition) {
 
   // Loop through each .navbar li a linking to anchor
   $qa('.navbar li a[href^="#"]').forEach(navLink => {
-    var href = navLink.getAttribute('href');
-    var anchor = $q(href);
+    var anchor = $q(navLink.getAttribute('href'));
     // If scroll position is >= to this anchor position then add .active to li
-    if (scrollPosition >= anchor.offsetTop) {
+    if (scrollPosition >= anchor.offsetTop - 1) {
       $q('.active').classList.remove('active');
       navLink.parentNode.classList.add('active');
     }
